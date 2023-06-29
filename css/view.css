@@ -1,0 +1,70 @@
+/* 全体 */
+body {
+  font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho Pro";
+}
+/* ヘッダー */
+header {
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  width: 650px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.list {
+  padding-top: 20px;
+  font-size: 30px;
+  letter-spacing: 11px;
+}
+
+.next {
+  border: 1px solid #666;
+  background-color: #fff;
+  width: 100px;
+  margin: 0 auto 10px;
+  padding: 5px;
+  text-align: center;
+}
+
+.next a {
+  text-decoration: none;
+  color: black;
+}
+
+.next:hover {
+  background: #f5a500;
+  color: #fff;
+}
+
+/* 履歴の表示 */
+h4 {
+  font-weight: bold;
+  border-radius: 7px;
+  max-width: 50%;
+  text-align: left;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+}
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 10px;
+  background-color: lightblue;
+  display: flex;
+  border-radius: 10px;
+  max-width: 50%;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: center;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#show {
+  margin-top: 20px;
+  overflow: auto;
+  height: 500px;
+}
